@@ -1,0 +1,8 @@
+---
+# tasks file for docker-registry.
+- name: tag and push to docker hub
+  docker_image:
+   name: cd-project:latest 
+   repository: cyrinebelguith/cd-angular
+   push: yes
+   source: local
