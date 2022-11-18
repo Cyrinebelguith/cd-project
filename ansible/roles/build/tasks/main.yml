@@ -1,0 +1,6 @@
+---
+# tasks file for build
+- name: install npm
+  shell: npm instal
+- name: build app
+  shell: ng build 
