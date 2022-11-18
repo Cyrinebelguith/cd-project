@@ -7,7 +7,6 @@
    password: "203JFT1712"
 - name: tag and push to docker hub
   docker_image:
-   name: cd-project:latest 
+   name: cd-project 
    repository: cyrinebelguith/cd-angular
    push: yes
-   source: local
