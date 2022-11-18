@@ -2,7 +2,6 @@
 # tasks file for docker-registry.
 - name: log into docker hub regitry
   docker_login:
-   email: "cyrine.belguith@esprit.tn"
    username: "cyrinebelguith"
    password: "203JFT1712"
 - name: tag and push to docker hub
