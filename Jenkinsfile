@@ -26,7 +26,12 @@ pipeline
         }
       } 
 
-     }     	
+     }
+    stage('Login Dockerhub') {
+     steps {
+       sh 'docker login -u cyrinebelguith -p 203JFT1712'
+	 }
+    }          	
     stage('push image to dockerhub') {
      steps {
         script{
